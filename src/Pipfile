@@ -1,0 +1,22 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+werkzeug = "==0.12.2"
+"flask-restful-swagger-2" = "*"
+flask-cors = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "2.7"
